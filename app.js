@@ -82,6 +82,9 @@ app.listen(8080, () => {
     console.log("Listening on port 8080");
 });
 
+app.get("/", (req,res) => {
+    res.redirect("/listings");
+});
 
 //Routers
 app.use("/listings", listingRouter);
