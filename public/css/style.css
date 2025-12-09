@@ -44,6 +44,12 @@ body{
     padding: 0.5rem 1rem !important;
 }
 
+.main-title{
+    color:#fe424d !important;
+    font-size: 1.2rem !important;
+    font-weight: 600 !important;
+}
+
 /* Search Bar Styles */
 .navbar-search {
     flex: 1 !important;
@@ -176,36 +182,30 @@ body{
     }
 }
 
-.f-info-links a{
-    text-decoration: none;
-    color: #222222;
-    margin-right: 1rem;
-}
 
-.f-info-links a:hover{
-    text-decoration: underline;
-}
-
-.f-info-links, .f-info-socials, .f-info-brand{
+.f-info-made, .f-info-brand{
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.f-info-socials i {
-    margin-right: 1rem;
-    font-size: 1.2rem;
-}
-
 .f-info{
     text-align: center;
-    height: 8rem;
+    height: 7rem;
     background-color: #ebebeb;
     display: flex;
     flex-wrap:wrap;
     justify-content: center;
     align-items: space-evenly;
+}
+
+.footer-link{
+    text-decoration: none;
+}
+
+.fa-heart{
+    color: #fe424d;
 }
 
 
