@@ -53,8 +53,8 @@ A full-stack web application for listing and booking vacation rentals, built wit
 
 ### Clone the Repository
 ```bash
-git clone https://github.com/yourusername/wanderlust.git
-cd wanderlust
+git clone https://github.com/Jyot-Shah/WanderLust.git
+cd WanderLust
 ```
 
 ### Install Dependencies
@@ -66,13 +66,12 @@ npm install
 Create a `.env` file in the root directory and add the following:
 
 ```env
-NODE_ENV=development
-MONGO_URL=mongodb+srv://username:password@cluster.mongodb.net/wanderlust?retryWrites=true&w=majority
-CLOUDINARY_NAME=your_cloudinary_name
-CLOUDINARY_KEY=your_cloudinary_key
-CLOUDINARY_SECRET=your_cloudinary_secret
+ATLASDB_URL=your_mongodb_url
+CLOUD_NAME=your_cloudinary_name
+CLOUD_API_KEY=your_cloudinary_key
+CLOUD_API_SECRET=your_cloudinary_secret
 MAP_TOKEN=your_mapbox_token
-SESSION_SECRET=your_session_secret
+SECRET=your_session_secret # for development, any random string is fine
 ```
 
 ### Initialize Database (Optional)
