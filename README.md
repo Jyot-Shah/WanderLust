@@ -1,4 +1,4 @@
-# Wanderlust - Airbnb Clone
+# WanderLust - Airbnb Clone
 
 A full-stack web application for listing and booking vacation rentals, built with Node.js, Express, MongoDB, and EJS templating.
 
@@ -269,17 +269,23 @@ wanderlust/
 
 ## License
 
-This project is open source and available under the MIT License.
+This project is open source and available under the MIT License. (See `LICENSE`)
 
 ---
 
 ## Author
+
+- [Jyot Shah](https://www.linkedin.com/in/jyotshah1/)
 
 Created as a learning project to build a full-stack web application similar to Airbnb.
 
 ---
 
 ## Acknowledgments
+
+A special thanks to [Shradha Khapra](https://www.linkedin.com/in/shradha-khapra/) Ma'am and the entire [Apna College](https://www.linkedin.com/company/apna-college/) team for their exceptional guidance and mentorship throughout this project. Their comprehensive curriculum and support made this full-stack application development journey possible.
+
+Additionally, thanks to the open-source community and all the libraries and frameworks that made this project possible:
 
 - [Express.js Documentation](https://expressjs.com/)
 - [MongoDB Documentation](https://docs.mongodb.com/)
@@ -292,4 +298,4 @@ Created as a learning project to build a full-stack web application similar to A
 
 ## Support
 
-For issues and questions, please open an issue on GitHub or contact the project maintainer.
+For questions or issues, please open an issue on GitHub or mail to **jyotshah1595@gmail.com**.
