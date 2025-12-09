@@ -106,7 +106,7 @@ NODE_ENV=production npm start
 ## Project Structure
 
 ```
-wanderlust/
+WanderLust/
 ├── controllers/
 │   ├── listings.js        # Listing CRUD logic
 │   ├── reviews.js         # Review logic
@@ -241,7 +241,7 @@ wanderlust/
 
 ### Session/Authentication Issues
 - Clear browser cookies if login persists after logout
-- Ensure `SESSION_SECRET` is set in `.env`
+- Ensure `SECRET` is set in `.env`
 - Check if user exists before authentication
 
 ### Infinite Loading on Edit
@@ -253,16 +253,6 @@ wanderlust/
 - Update Joi schema to allow optional images on update
 - Handle missing images in controllers before validation
 - Ensure form includes proper field names
-
----
-
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
 
 ---
 
