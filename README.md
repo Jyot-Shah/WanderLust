@@ -288,3 +288,7 @@ Additionally, thanks to the open-source community and all the libraries and fram
 ## Support
 
 For questions or issues, please open an issue on GitHub or mail to **jyotshah1595@gmail.com**.
+
+---
+
+**Thank you for exploring WanderLust! Happy coding! 🎉**
